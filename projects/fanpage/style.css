@@ -1,5 +1,24 @@
 /* Write all your custom CSS below this line  */
 
 body {
+    background-color:#351431;
     margin: 0;
+}
+
+h1 {
+    border: 5px gray;
+    background: #775253;
+    text-align: center;
+    padding: 20px 40px 60px 80px;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    background: #ADEFD1FF;
+    border: 5px gray;
+    padding: 20px 40px 60px 80px;
+    margin: 30px;
 }
