@@ -39,16 +39,23 @@ a {color: #Bdc696;
     padding-right: 20px;
 }
 
-h3 { background: #3c6e71;
-    border: 5px gray;
-    padding: 20px 40px 60px 80px;
-    margin: 30px 30px 0px 30px;
-    color: #D1d3c4;}
+h3 { background: #775253;
+    border-left: 5px solid #Bdc696;
+    padding: 20px 20px 20px 20px;
+    margin: 90px 300px 0px 300px;
+color: #D1d3c4;}
 
 p {
     background: #3c6e71;
-    border: 5px gray;
-    padding: 20px 40px 60px 80px;
-    margin: 0px 30px 30px 30px;
+    border-left: 5px solid #Bdc696;
+    padding: 20px 20px 20px 20px;
+    margin: 0px 300px 30px 300px;
     color: #D1d3c4;
 }
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
