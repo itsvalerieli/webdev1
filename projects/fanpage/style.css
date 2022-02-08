@@ -59,3 +59,9 @@ img{
     margin-right: auto;
     width: 50%;
   }
+
+  #footer {background: #775253;
+    padding: 30px 30px 30px 30px;
+    margin: 90px 0px 0px 0px;
+    text-align: center;
+    border-left: 0px solid #Bdc696;}
