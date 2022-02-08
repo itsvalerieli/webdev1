@@ -43,10 +43,16 @@ a {color: #Bdc696;
     padding-right: 20px;
 }
 
+h3 { background: #3c6e71;
+    border: 5px gray;
+    padding: 20px 40px 60px 80px;
+    margin: 50px;
+    color: #D1d3c4;}
+
 p {
     background: #3c6e71;
     border: 5px gray;
     padding: 20px 40px 60px 80px;
-    margin: 30px;
+    margin: 50px;
     color: #D1d3c4;
 }
