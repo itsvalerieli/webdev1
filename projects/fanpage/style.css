@@ -1,5 +1,5 @@
 /* Write all your custom CSS below this line  */
-
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Raleway:wght@200&display=swap');
 body {
     background-color:#351431;
     margin: 0;
@@ -12,7 +12,7 @@ h1 {
     color:#D1d3c4;
     padding: 10px 40px 0px 80px;
     margin: 0;
-    font-family:  Verdana, sans-serif;
+    font-family: 'Gideon Roman', cursive;
 }
 
 h2 {
@@ -32,7 +32,7 @@ nav {
     background: #775253;
     margin: 0;
     padding: 10px 40px 20px 80px;
-    font-family: sans-serif ;
+    font-family: 'Raleway', sans-serif;
 
 }
 a {color: #Bdc696;
