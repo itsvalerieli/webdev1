@@ -1,5 +1,6 @@
 /* Write all your custom CSS below this line  */
 @import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Raleway:wght@200&display=swap');
+
 body {
     background-color:#351431;
     margin: 0;
@@ -26,49 +27,49 @@ h2 {
     font-weight:normal;
 }
 
-
 nav {
     text-align: center;
     background: #775253;
     margin: 0;
-    padding: 10px 40px 20px 80px;
+    padding: 10px 40px 30px 80px;
     font-family: 'Raleway', sans-serif;
 
 }
+
 a {color: #Bdc696;
     padding-right: 20px;
 }
 
-h3 { background: #775253;
-    border-left: 5px solid #Bdc696;
-    padding: 20px;
-    margin: 90px 250px 0px 250px;
-color: #D1d3c4;}
-.header{
-    padding: 20px;
-    margin: 30px 250px 0px 250px;
+section {
+  border-left: 8px solid #Bdc696;
+  margin: 3em auto;
+  max-width: 110ch;
+  background: #3c6e71;
+  padding: 0px;
 }
 
-p {
-    background: #3c6e71;
-    border-left: 5px solid #Bdc696;
-    padding: 30px 20px 30px 20px;
-    margin: 0px 250px 30px 250px;
-    color: #D1d3c4;
-}
-
-img{
-    display: block;
+img {
+  display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
-    max-width: 700px;
-  }
+    width: 60%;
+    max-width: 600px;
+}
 
-  #footer {background: #775253;
+h3 { background: #775253;
+color: #D1d3c4;
+margin: 0;
+padding: 1em;}
+
+p { background: #3c6e71;
+    padding: 1em;
+    margin: 5px ;
+    color: #D1d3c4;}
+
+#footer {background: #775253;
     padding: 30px 30px 30px 30px;
     margin: 90px 0px 0px 0px;
     text-align: center;
     border-left: 0px solid #Bdc696;}
 
-  
+.first {margin-top: 5em ;}
