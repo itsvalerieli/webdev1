@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100&display=swap');
+ 
+body {
+    background-image: url(https://media.giphy.com/media/5vgHoMiknf5iJl8FH1/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+
+}
+h1 {
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 5em;
+}
+#flag{
+    position: absolute;
+    left:70rem;
+    top:4rem;
+    width: 10%;
+}
+#fire{
+    position:absolute;
+bottom: .5rem;
+left: .5rem;
+width: 100%;  
+    }
+#explosive{
+    position:absolute;
+top: 10rem;
+left: 5rem;
+width:25%;
+}
+#blood{
+    position:fixed;
+    top:10rem;
+    left: 25rem;
+    width:47%
+}
+#tank{
+    position:fixed;
+    bottom:10rem;
+    right: 4rem;
+    width:20%;
+}
