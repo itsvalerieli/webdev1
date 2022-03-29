@@ -1,0 +1,94 @@
+h1{
+  color:rgb(165, 54, 82);
+}
+
+#waiting-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+
+  width: 20rem;
+  height: 20rem;
+  background: rgb(91, 165, 214);
+}
+
+#loading-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+}
+div#circle {
+  width: 200px;
+  height: 200px;
+  border: 15px solid red;
+  margin: 0 auto;
+  margin-top: 25%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  border-radius: 50%;
+  animation-name: circle;
+   animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes circle {
+  0% {
+    border-color: rgb(216, 36, 120);
+    transform: scale(1);
+  }
+  25% {
+    border-color: rgb(130, 176, 235);
+    transform: scale(1.1);
+  }
+  50% {
+    border-color: rgb(217, 255, 0);
+    transform: scale(1.3);
+  }
+  75% {
+    border-color: rgb(233, 172, 205);
+    transform: scale(1.1);
+  }
+  100% {
+    border-color: rgb(49, 0, 128);
+    transform: scale(1);
+  }
+}
+
+div#square{
+  width: 75px;
+  height: 75px;
+  border: 5px solid rgb(14, 235, 235);
+  position: absolute;
+  animation-name: square;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes square{
+  0%{
+    transform: rotate(0deg)
+  }
+  25%{
+    border-color: rgb(145, 233, 110);
+    border-width: 10px;
+  }
+  50%{
+    border-color: coral;
+    border-width: 20px;
+  }
+  75%{
+    border-color: rgb(221, 121, 196);
+    border-width: 40px;
+  }
+  100% {
+    transform: rotate(360deg);
+    border-width: 5px;
+  }
+}
