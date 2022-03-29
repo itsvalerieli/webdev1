@@ -4,13 +4,52 @@ h1{
 
 #waiting-container {
   position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%,-50%);
+  
 
-  width: 20rem;
-  height: 20rem;
-  background: rgb(91, 165, 214);
+}
+
+div#waitingsquare {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: waitingsquare;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: backwards;
+}
+
+@keyframes waitingsquare{
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: lime;
+    left: 500px;
+    top: 0px;
+  }
+  50%{
+    background-color: dodgerblue;
+     left: 500px;
+    top: 500px;
+    border-radius: 50%;
+  }
+  75%{
+    background-color: orange;
+    left: 0px;
+    top: 500px;
+  }
+  100% {
+    background-color: blue;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px; 
+  }
 }
 
 #loading-container {
