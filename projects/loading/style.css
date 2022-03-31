@@ -1,17 +1,22 @@
 
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap&effect=shadow-multiple|fire-animation');
 
-@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap&effect=shadow-multiple|neon');
+@import url('https://fonts.googleapis.com/css?family=Play&display=swap&effect=shadow-multiple|neon');
 
 body{
   background: black;
 }
 
 h1{
-  color:rgb(221, 121, 196);
-  font-family: 'Alfa Slab One', cursive;
+  
+  font-family: 'Play', sans-serif;
 }
-
+#minutes{
+  margin-top: 10%;
+}
+#hours{
+  margin-top: 30%;
+}
 p{
   color: white;
   margin-top: 25%;
