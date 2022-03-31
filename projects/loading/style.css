@@ -1,56 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap&effect=shadow-multiple|fire-animation');
+
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap&effect=shadow-multiple|neon');
+
+body{
+  background: black;
+}
+
 h1{
-  color:rgb(165, 54, 82);
+  color:rgb(221, 121, 196);
+  font-family: 'Alfa Slab One', cursive;
 }
 
-#waiting-container {
+p{
+  color: white;
+  margin-top: 25%;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Indie Flower', cursive;
+}
+.big{
+  width:300px;
+  height:300px;
+  border: 1.5px solid orange;
   position: absolute;
-  
-
+  top: 0;
+  left: 0;
+  right:0;
+  margin: auto;
+  border-radius: 50%;
 }
 
-div#waitingsquare {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  position: relative;
-  animation-name: waitingsquare;
-  animation-duration: 4s;
-  animation-timing-function: linear;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-fill-mode: backwards;
+.mini{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  margin: auto;
+  animation: ball 5s linear infinite;
 }
 
-@keyframes waitingsquare{
-  0% {
-    background-color: red;
-    left: 0px;
-    top: 0px;
+@keyframes ball{
+  0%{
+    transform: rotate(0deg)translate(-160px)rotate(0deg);
   }
-  25% {
-    background-color: lime;
-    left: 500px;
-    top: 0px;
-  }
-  50%{
-    background-color: dodgerblue;
-     left: 500px;
-    top: 500px;
-    border-radius: 50%;
-  }
-  75%{
-    background-color: orange;
-    left: 0px;
-    top: 500px;
-  }
-  100% {
-    background-color: blue;
-    left: 0px;
-    top: 0px;
-    border-radius: 0px; 
+  100%{
+    transform: rotate(360deg)translate(-160px)rotate(0deg);
   }
 }
+
 
 #loading-container {
   position: absolute;
