@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  img {
+    display: block;
+    width: 6vw;
+    max-width: 16rem;
+    background-color: lightblue;
+    border-radius: 20%;
+   
+  }
+  
+  .outer-flex-container {
+    background-color: pink;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+  }
+  
+  .case {
+    border: .5rem solid black;
+    padding: 1em;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    position: relative;
+  }
+  
+  .flex-container {
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  
